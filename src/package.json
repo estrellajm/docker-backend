@@ -1,0 +1,21 @@
+{
+  "name": "docker-backend",
+  "version": "1.0.0",
+  "description": "Setup using NodeJS ExpressJS RethinDB Docker",
+  "license": "MIT",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://j_estrella@bitbucket.org/j_estrella/docker-fullstack.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cfenv": "^1.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "rethinkdb": "^2.3.3"
+  }
+}

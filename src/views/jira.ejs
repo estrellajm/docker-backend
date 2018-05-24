@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CRUD JIRA</title>
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="css/app.css">
+	</head>
+	<body>
+		<h2>Games:</h2>
+		<table border="1" cellspacing="0">
+			<tr>
+				<th>Key</th>
+				<th>Player 1</th>
+				<th>Status</th>
+				<th>Update</th>
+			</tr>
+			<% for (var i=0; i<tickets.length; i++) { %>
+			<tr>
+				<td><img src="<%=tickets[i].fields.priority.iconUrl%>" alt="Smiley face"></td>
+				<td><%=tickets[i].key%></td>
+				<td><%=tickets[i].fields.summary%></td>
+				<td><a href="/update?id=<%=tickets[i].id%>">Update</a></td>
+			</tr>   
+			<% } %>
+		</table>
+		<br /><a href="/create">Create New Game</a>
+	</body>
+</html>

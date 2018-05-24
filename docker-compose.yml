@@ -1,0 +1,22 @@
+version: '3.6'
+services:
+  db:
+    image: rethinkdb:latest
+    container_name: rethinkdb
+    volumes:
+      - ./src:/data
+    ports:  
+      - "8080:8080"
+  node:
+    image: node    
+    # image: node:alpine    
+    container_name: node    
+    volumes:
+      - ./startup:/usr/startup
+      - ./src:/usr/src/app
+    working_dir: /usr/src/app
+    command: /usr/startup/startup.sh  
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
