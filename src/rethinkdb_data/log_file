@@ -7998,3 +7998,319 @@
 2018-05-24T04:08:21.090479459 1.946012s info: Table fa5cd450-8b18-4ec9-8100-ab47492eb653: This server is Raft leader for term 4. Latest log index is 8.
 2018-05-24T04:08:21.138830505 1.994363s info: Table cdcd4e19-c8f9-4696-9ffe-7ca290f8d594: Starting a new Raft election for term 30.
 2018-05-24T04:08:21.141135131 1.996667s info: Table cdcd4e19-c8f9-4696-9ffe-7ca290f8d594: This server is Raft leader for term 30. Latest log index is 86.
+2018-05-26T19:52:27.398101294 0.030665s notice: Running rethinkdb 2.3.6~0jessie (GCC 4.9.2)...
+2018-05-26T19:52:27.407861636 0.040421s notice: Running on Linux 4.9.87-linuxkit-aufs x86_64
+2018-05-26T19:52:27.408214207 0.040771s notice: Loading data from directory /data/rethinkdb_data
+2018-05-26T19:52:27.443680866 0.076239s info: Automatically using cache size of 343 MB
+2018-05-26T19:52:27.445923055 0.078480s notice: Listening for intracluster connections on port 29015
+2018-05-26T19:52:27.664554134 0.297111s notice: Listening for client driver connections on port 28015
+2018-05-26T19:52:27.665274842 0.297832s notice: Listening for administrative HTTP connections on port 8080
+2018-05-26T19:52:27.681411490 0.313969s notice: Listening on cluster addresses: 127.0.0.1, 172.22.0.2
+2018-05-26T19:52:27.721383156 0.353940s notice: Listening on driver addresses: 127.0.0.1, 172.22.0.2
+2018-05-26T19:52:27.723202483 0.355760s notice: Listening on http addresses: 127.0.0.1, 172.22.0.2
+2018-05-26T19:52:27.723279323 0.355836s notice: Server ready, "ctec_env" 5482d187-3117-4464-861f-8a0c969f7086
+2018-05-26T19:52:28.615472951 1.248030s info: Table 72ac25e6-1a4a-4ea3-bea0-506b33a8e4fd: Starting a new Raft election for term 31.
+2018-05-26T19:52:28.616470711 1.249028s info: Table 72ac25e6-1a4a-4ea3-bea0-506b33a8e4fd: This server is Raft leader for term 31. Latest log index is 89.
+2018-05-26T19:52:28.641542097 1.274100s info: Table b2686d97-8eb0-4910-98fd-fbffdba333bd: Starting a new Raft election for term 5.
+2018-05-26T19:52:28.642592380 1.275150s info: Table b2686d97-8eb0-4910-98fd-fbffdba333bd: This server is Raft leader for term 5. Latest log index is 11.
+2018-05-26T19:52:28.665287816 1.297845s info: Table fa5cd450-8b18-4ec9-8100-ab47492eb653: Starting a new Raft election for term 5.
+2018-05-26T19:52:28.666510257 1.299067s info: Table fa5cd450-8b18-4ec9-8100-ab47492eb653: This server is Raft leader for term 5. Latest log index is 11.
+2018-05-26T19:52:28.714955765 1.347513s info: Table 677b3d40-436f-44f0-b0d1-e95a77938269: Starting a new Raft election for term 5.
+2018-05-26T19:52:28.717277182 1.349834s info: Table 677b3d40-436f-44f0-b0d1-e95a77938269: This server is Raft leader for term 5. Latest log index is 11.
+2018-05-26T19:52:28.980491176 1.613048s info: Table 1d88492e-e7a5-4fa8-9d18-6b24d728db3e: Starting a new Raft election for term 31.
+2018-05-26T19:52:28.981890080 1.614447s info: Table 1d88492e-e7a5-4fa8-9d18-6b24d728db3e: This server is Raft leader for term 31. Latest log index is 89.
+2018-05-26T19:52:29.089618078 1.722175s info: Table cdcd4e19-c8f9-4696-9ffe-7ca290f8d594: Starting a new Raft election for term 31.
+2018-05-26T19:52:29.090708064 1.723265s info: Table cdcd4e19-c8f9-4696-9ffe-7ca290f8d594: This server is Raft leader for term 31. Latest log index is 89.
+2018-05-26T19:52:29.115125281 1.747683s info: Table 8d54dbf4-8945-4752-9cec-c30d9aaa83e7: Starting a new Raft election for term 31.
+2018-05-26T19:52:29.116163252 1.748720s info: Table 8d54dbf4-8945-4752-9cec-c30d9aaa83e7: This server is Raft leader for term 31. Latest log index is 89.
+2018-05-26T19:52:29.152886920 1.785444s info: Table 2affde32-d527-414b-9fa1-6dd0626fca74: Starting a new Raft election for term 29.
+2018-05-26T19:52:29.153746073 1.786303s info: Table 2affde32-d527-414b-9fa1-6dd0626fca74: This server is Raft leader for term 29. Latest log index is 84.
+2018-05-26T19:52:29.376420454 2.008978s info: Table 21e9b8c2-f24c-4735-a504-c9585add0577: Starting a new Raft election for term 5.
+2018-05-26T19:52:29.377311059 2.009868s info: Table 21e9b8c2-f24c-4735-a504-c9585add0577: This server is Raft leader for term 5. Latest log index is 12.
+2018-05-26T19:58:26.924645133 359.814436s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.5136cbe62a63604402f2.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:26.940728343 359.830520s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.3cf6adf61054c328b1b0.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:27.046084754 359.935876s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.f8836cf0560088131e11.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:27.046189062 359.935980s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.b0c47f860f3e9226d43f.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:27.046212523 359.936003s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.3c37aa69cd77e6a53a06.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:27.046288195 359.936079s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.1561b424aaef2f704bbd.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:27.255631141 360.145422s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.7667046c1f29125f4b17.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:27.255829059 360.145620s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.ea36cd9a0e9eee97012a.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:27.257782366 360.147574s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.cf4d60bc0b1d4b231408.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:27.262259545 360.152051s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.d08958dc7fb4dbd097f8.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:27.308240980 360.198032s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.6f1e8cb58b16bd42650f.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:27.308414990 360.198206s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.acfcc98912c1b8439c5b.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:28.352202937 361.241994s notice: Someone asked for the nonwhitelisted file "/ngsw-worker.js".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:32.338616429 365.228407s notice: Someone asked for the nonwhitelisted file "/ngsw.json".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:35.652660513 368.563896s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.5136cbe62a63604402f2.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:35.657553516 368.568789s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.3cf6adf61054c328b1b0.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:35.694007417 368.605243s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.f8836cf0560088131e11.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:35.694074049 368.605309s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.b0c47f860f3e9226d43f.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:35.699861070 368.611096s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.3c37aa69cd77e6a53a06.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:35.700096396 368.611331s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.1561b424aaef2f704bbd.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:35.742678842 368.653914s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.d08958dc7fb4dbd097f8.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:35.743174350 368.654409s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.7667046c1f29125f4b17.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:35.743221701 368.654457s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.cf4d60bc0b1d4b231408.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:35.743532081 368.654767s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.ea36cd9a0e9eee97012a.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:35.770641672 368.681877s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.acfcc98912c1b8439c5b.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:35.771388866 368.682624s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.6f1e8cb58b16bd42650f.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:36.604196957 369.515432s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.5136cbe62a63604402f2.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:36.611331290 369.522566s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.3cf6adf61054c328b1b0.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:36.653775141 369.565010s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.f8836cf0560088131e11.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:36.654236378 369.565471s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.b0c47f860f3e9226d43f.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:36.654296216 369.565531s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.3c37aa69cd77e6a53a06.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:36.654380135 369.565615s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.1561b424aaef2f704bbd.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:36.700442101 369.611677s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.d08958dc7fb4dbd097f8.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:36.700592171 369.611827s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.7667046c1f29125f4b17.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:36.700630932 369.611866s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.ea36cd9a0e9eee97012a.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:36.701192751 369.612428s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.cf4d60bc0b1d4b231408.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:36.724376542 369.635612s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.acfcc98912c1b8439c5b.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:36.724877515 369.636113s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.6f1e8cb58b16bd42650f.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:58:37.751404058 370.662639s notice: Someone asked for the nonwhitelisted file "/ngsw-worker.js".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:16.120756402 409.053397s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.5136cbe62a63604402f2.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:16.130495339 409.063136s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.3cf6adf61054c328b1b0.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:16.176440764 409.109081s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.f8836cf0560088131e11.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:16.176527901 409.109168s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.b0c47f860f3e9226d43f.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:16.176547342 409.109187s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.3c37aa69cd77e6a53a06.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:16.176565925 409.109206s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.1561b424aaef2f704bbd.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:16.347384876 409.280025s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.7667046c1f29125f4b17.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:16.348422380 409.281063s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.ea36cd9a0e9eee97012a.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:16.348672799 409.281313s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.d08958dc7fb4dbd097f8.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:16.348724514 409.281365s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.cf4d60bc0b1d4b231408.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:16.393781131 409.326421s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.6f1e8cb58b16bd42650f.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:16.393837078 409.326477s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.acfcc98912c1b8439c5b.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:17.437355329 410.369996s notice: Someone asked for the nonwhitelisted file "/ngsw-worker.js".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:53.031452407 445.985561s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.5136cbe62a63604402f2.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:53.039475635 445.993584s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.3cf6adf61054c328b1b0.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:53.104227694 446.058336s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.b0c47f860f3e9226d43f.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:53.104349125 446.058457s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.f8836cf0560088131e11.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:53.104619492 446.058728s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.3c37aa69cd77e6a53a06.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:53.105221057 446.059329s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.1561b424aaef2f704bbd.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:53.198963717 446.153072s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.d08958dc7fb4dbd097f8.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:53.199882503 446.153991s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.7667046c1f29125f4b17.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:53.199955928 446.154064s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.ea36cd9a0e9eee97012a.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:53.199994237 446.154102s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.cf4d60bc0b1d4b231408.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:53.241807678 446.195916s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.acfcc98912c1b8439c5b.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:53.241879711 446.195988s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.6f1e8cb58b16bd42650f.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T19:59:54.278182369 447.232291s notice: Someone asked for the nonwhitelisted file "/ngsw-worker.js".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:21.576087986 474.551619s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.5136cbe62a63604402f2.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:21.583062739 474.558594s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.3cf6adf61054c328b1b0.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:21.626988642 474.602520s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.f8836cf0560088131e11.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:21.627118186 474.602649s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.3c37aa69cd77e6a53a06.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:21.627162240 474.602693s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.b0c47f860f3e9226d43f.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:21.627249666 474.602781s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.1561b424aaef2f704bbd.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:21.736595879 474.712127s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.7667046c1f29125f4b17.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:21.737914908 474.713446s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.ea36cd9a0e9eee97012a.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:21.737992238 474.713523s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.d08958dc7fb4dbd097f8.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:21.738781641 474.714313s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.cf4d60bc0b1d4b231408.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:21.776211158 474.751742s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.6f1e8cb58b16bd42650f.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:21.792603473 474.768134s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.acfcc98912c1b8439c5b.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:22.759888229 475.735419s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.5136cbe62a63604402f2.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:22.766634341 475.742165s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.3cf6adf61054c328b1b0.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:22.805782465 475.781314s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.1561b424aaef2f704bbd.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:22.805854903 475.781386s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.f8836cf0560088131e11.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:22.805870945 475.781402s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.3c37aa69cd77e6a53a06.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:22.805884418 475.781415s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.b0c47f860f3e9226d43f.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:22.850969246 475.826500s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.ea36cd9a0e9eee97012a.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:22.851164113 475.826695s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.7667046c1f29125f4b17.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:22.851264010 475.826795s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.d08958dc7fb4dbd097f8.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:22.852125430 475.827656s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.cf4d60bc0b1d4b231408.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:22.874220505 475.849752s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.6f1e8cb58b16bd42650f.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:22.874407632 475.849938s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.acfcc98912c1b8439c5b.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:23.931735674 476.907267s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.5136cbe62a63604402f2.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:23.936991134 476.912522s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.3cf6adf61054c328b1b0.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:23.972660814 476.948192s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.f8836cf0560088131e11.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:23.972892716 476.948424s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.b0c47f860f3e9226d43f.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:23.972917662 476.948448s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.3c37aa69cd77e6a53a06.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:23.972964657 476.948495s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.1561b424aaef2f704bbd.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:24.018641023 476.994172s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.7667046c1f29125f4b17.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:24.019384281 476.994915s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.d08958dc7fb4dbd097f8.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:24.019794739 476.995326s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.cf4d60bc0b1d4b231408.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:24.019825773 476.995356s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.ea36cd9a0e9eee97012a.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:24.042861733 477.018393s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.6f1e8cb58b16bd42650f.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:24.043167951 477.018699s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.acfcc98912c1b8439c5b.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:25.075440520 478.050972s notice: Someone asked for the nonwhitelisted file "/ngsw-worker.js".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:25.466357481 478.441888s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.5136cbe62a63604402f2.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:25.471134639 478.446666s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.3cf6adf61054c328b1b0.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:25.504755762 478.480287s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.f8836cf0560088131e11.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:25.505111927 478.480643s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.b0c47f860f3e9226d43f.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:25.505161773 478.480692s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.3c37aa69cd77e6a53a06.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:25.505181942 478.480713s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.1561b424aaef2f704bbd.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:25.549772877 478.525304s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.ea36cd9a0e9eee97012a.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:25.549857346 478.525388s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.7667046c1f29125f4b17.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:25.549879216 478.525410s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.d08958dc7fb4dbd097f8.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:25.551888861 478.527420s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.cf4d60bc0b1d4b231408.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:25.574231223 478.549762s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.acfcc98912c1b8439c5b.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:25.574286963 478.549818s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.6f1e8cb58b16bd42650f.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:26.282779770 479.258311s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.5136cbe62a63604402f2.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:26.287588692 479.263120s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.3cf6adf61054c328b1b0.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:26.322445385 479.297976s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.b0c47f860f3e9226d43f.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:26.322513978 479.298045s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.3c37aa69cd77e6a53a06.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:26.322535105 479.298066s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.f8836cf0560088131e11.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:26.322625019 479.298156s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.1561b424aaef2f704bbd.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:26.368571949 479.344103s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.ea36cd9a0e9eee97012a.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:26.368795443 479.344326s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.d08958dc7fb4dbd097f8.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:26.369179111 479.344710s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.7667046c1f29125f4b17.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:26.370606623 479.346138s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.cf4d60bc0b1d4b231408.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:26.394550773 479.370082s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.acfcc98912c1b8439c5b.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:26.395378171 479.370909s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.6f1e8cb58b16bd42650f.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:26.987613695 479.963145s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.5136cbe62a63604402f2.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:26.993623453 479.969155s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.3cf6adf61054c328b1b0.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:27.033417371 480.008949s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.f8836cf0560088131e11.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:27.033516385 480.009047s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.b0c47f860f3e9226d43f.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:27.035199586 480.010731s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.3c37aa69cd77e6a53a06.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:27.035458846 480.010990s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.1561b424aaef2f704bbd.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:27.088724892 480.064256s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.7667046c1f29125f4b17.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:27.088776234 480.064307s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.ea36cd9a0e9eee97012a.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:27.089225039 480.064756s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.d08958dc7fb4dbd097f8.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:27.089278383 480.064809s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.cf4d60bc0b1d4b231408.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:27.116872600 480.092404s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.6f1e8cb58b16bd42650f.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:27.117376909 480.092908s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.acfcc98912c1b8439c5b.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:28.143569087 481.119100s notice: Someone asked for the nonwhitelisted file "/ngsw-worker.js".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:00:29.736745663 482.712277s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2018-05-26T20:00:29.736897464 482.712428s notice: Shutting down client connections...
+2018-05-26T20:00:29.737116088 482.712647s notice: All client connections closed.
+2018-05-26T20:00:29.737118571 482.712649s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-05-26T20:00:29.774553206 482.750084s notice: Storage engine shut down.
+2018-05-26T20:08:02.779209572 0.026036s notice: Running rethinkdb 2.3.6~0jessie (GCC 4.9.2)...
+2018-05-26T20:08:02.785261100 0.032083s notice: Running on Linux 4.9.87-linuxkit-aufs x86_64
+2018-05-26T20:08:02.786592967 0.033413s notice: Loading data from directory /data/rethinkdb_data
+2018-05-26T20:08:02.823780638 0.070604s info: Automatically using cache size of 343 MB
+2018-05-26T20:08:02.828681173 0.075502s notice: Listening for intracluster connections on port 29015
+2018-05-26T20:08:03.060800370 0.307621s notice: Listening for client driver connections on port 28015
+2018-05-26T20:08:03.060973469 0.307794s notice: Listening for administrative HTTP connections on port 8080
+2018-05-26T20:08:03.167366709 0.414187s notice: Listening on cluster addresses: 127.0.0.1, 172.22.0.2
+2018-05-26T20:08:03.169563102 0.416383s notice: Listening on driver addresses: 127.0.0.1, 172.22.0.2
+2018-05-26T20:08:03.170382096 0.417202s notice: Listening on http addresses: 127.0.0.1, 172.22.0.2
+2018-05-26T20:08:03.170384271 0.417204s notice: Server ready, "ctec_env" 5482d187-3117-4464-861f-8a0c969f7086
+2018-05-26T20:08:04.087145090 1.333965s info: Table fa5cd450-8b18-4ec9-8100-ab47492eb653: Starting a new Raft election for term 6.
+2018-05-26T20:08:04.088044729 1.334865s info: Table fa5cd450-8b18-4ec9-8100-ab47492eb653: This server is Raft leader for term 6. Latest log index is 14.
+2018-05-26T20:08:04.102926276 1.349747s info: Table b2686d97-8eb0-4910-98fd-fbffdba333bd: Starting a new Raft election for term 6.
+2018-05-26T20:08:04.103898099 1.350718s info: Table b2686d97-8eb0-4910-98fd-fbffdba333bd: This server is Raft leader for term 6. Latest log index is 14.
+2018-05-26T20:08:04.253433561 1.500254s info: Table 8d54dbf4-8945-4752-9cec-c30d9aaa83e7: Starting a new Raft election for term 32.
+2018-05-26T20:08:04.254654890 1.501475s info: Table 8d54dbf4-8945-4752-9cec-c30d9aaa83e7: This server is Raft leader for term 32. Latest log index is 92.
+2018-05-26T20:08:04.419435662 1.666256s info: Table 677b3d40-436f-44f0-b0d1-e95a77938269: Starting a new Raft election for term 6.
+2018-05-26T20:08:04.422020276 1.668841s info: Table 677b3d40-436f-44f0-b0d1-e95a77938269: This server is Raft leader for term 6. Latest log index is 14.
+2018-05-26T20:08:04.719363188 1.966184s info: Table 1d88492e-e7a5-4fa8-9d18-6b24d728db3e: Starting a new Raft election for term 32.
+2018-05-26T20:08:04.720268030 1.967088s info: Table 1d88492e-e7a5-4fa8-9d18-6b24d728db3e: This server is Raft leader for term 32. Latest log index is 92.
+2018-05-26T20:08:04.740552985 1.987373s info: Table 21e9b8c2-f24c-4735-a504-c9585add0577: Starting a new Raft election for term 6.
+2018-05-26T20:08:04.741277787 1.988098s info: Table 21e9b8c2-f24c-4735-a504-c9585add0577: This server is Raft leader for term 6. Latest log index is 15.
+2018-05-26T20:08:04.872964562 2.119785s info: Table 72ac25e6-1a4a-4ea3-bea0-506b33a8e4fd: Starting a new Raft election for term 32.
+2018-05-26T20:08:04.874033348 2.120854s info: Table 72ac25e6-1a4a-4ea3-bea0-506b33a8e4fd: This server is Raft leader for term 32. Latest log index is 92.
+2018-05-26T20:08:04.878541984 2.125362s info: Table cdcd4e19-c8f9-4696-9ffe-7ca290f8d594: Starting a new Raft election for term 32.
+2018-05-26T20:08:04.879229541 2.126050s info: Table cdcd4e19-c8f9-4696-9ffe-7ca290f8d594: This server is Raft leader for term 32. Latest log index is 92.
+2018-05-26T20:08:04.880398739 2.127219s info: Table 2affde32-d527-414b-9fa1-6dd0626fca74: Starting a new Raft election for term 30.
+2018-05-26T20:08:04.881565730 2.128386s info: Table 2affde32-d527-414b-9fa1-6dd0626fca74: This server is Raft leader for term 30. Latest log index is 87.
+2018-05-26T20:08:09.971850371 7.218671s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.5136cbe62a63604402f2.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:09.994166586 7.240987s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.3cf6adf61054c328b1b0.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:10.052529366 7.299350s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.b0c47f860f3e9226d43f.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:10.052679678 7.299500s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.f8836cf0560088131e11.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:10.053110309 7.299931s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.1561b424aaef2f704bbd.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:10.053222827 7.300043s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.3c37aa69cd77e6a53a06.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:10.146095414 7.392916s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.7667046c1f29125f4b17.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:10.146320845 7.393141s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.d08958dc7fb4dbd097f8.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:10.151509719 7.398330s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.cf4d60bc0b1d4b231408.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:10.151852421 7.398673s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.ea36cd9a0e9eee97012a.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:10.189267368 7.436088s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.6f1e8cb58b16bd42650f.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:10.190972556 7.437793s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.acfcc98912c1b8439c5b.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:11.344727860 8.591548s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.5136cbe62a63604402f2.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:11.352957293 8.599778s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.3cf6adf61054c328b1b0.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:11.393687911 8.640508s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.b0c47f860f3e9226d43f.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:11.393936906 8.640757s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.f8836cf0560088131e11.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:11.394234668 8.641055s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.3c37aa69cd77e6a53a06.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:11.394323817 8.641144s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.1561b424aaef2f704bbd.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:11.472447648 8.719268s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.d08958dc7fb4dbd097f8.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:11.472708092 8.719528s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.7667046c1f29125f4b17.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:11.473135476 8.719956s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.ea36cd9a0e9eee97012a.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:11.473368217 8.720189s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.cf4d60bc0b1d4b231408.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:11.497631431 8.744452s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.acfcc98912c1b8439c5b.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:11.497967990 8.744788s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.6f1e8cb58b16bd42650f.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:12.537001970 9.783823s notice: Someone asked for the nonwhitelisted file "/ngsw-worker.js".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:12.914296490 10.161117s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.5136cbe62a63604402f2.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:12.922075644 10.168896s notice: Someone asked for the nonwhitelisted file "/Roboto-Regular.3cf6adf61054c328b1b0.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:12.966215158 10.213036s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.f8836cf0560088131e11.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:12.966297245 10.213117s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.3c37aa69cd77e6a53a06.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:12.966325641 10.213146s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.b0c47f860f3e9226d43f.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:12.966764009 10.213584s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.1561b424aaef2f704bbd.woff2".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:13.017693268 10.264514s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.d08958dc7fb4dbd097f8.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:13.018721258 10.265542s notice: Someone asked for the nonwhitelisted file "/Roboto-Light.ea36cd9a0e9eee97012a.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:13.018823698 10.265644s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.7667046c1f29125f4b17.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:13.019371991 10.266192s notice: Someone asked for the nonwhitelisted file "/Roboto-Medium.cf4d60bc0b1d4b231408.woff".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:13.047533201 10.294354s notice: Someone asked for the nonwhitelisted file "/fa-solid-900.acfcc98912c1b8439c5b.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:13.059671985 10.306492s notice: Someone asked for the nonwhitelisted file "/fa-regular-400.6f1e8cb58b16bd42650f.ttf".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:08:14.070177052 11.316997s notice: Someone asked for the nonwhitelisted file "/ngsw-worker.js".  If this should be accessible, add it to the static web assets.
+2018-05-26T20:09:24.312849370 81.599666s info: Table 02ea2fb6-001f-48a4-aff8-3bbc62259f72: Added replica on this server.
+2018-05-26T20:09:24.312884019 81.599700s info: Table 02ea2fb6-001f-48a4-aff8-3bbc62259f72: Starting a new Raft election for term 1.
+2018-05-26T20:09:24.314757539 81.601574s info: Table 02ea2fb6-001f-48a4-aff8-3bbc62259f72: This server is Raft leader for term 1. Latest log index is 0.
+2018-05-26T20:10:41.560886466 158.912011s info: Table 02ea2fb6-001f-48a4-aff8-3bbc62259f72: Configuration is changing.
+2018-05-26T20:36:43.149071671 1721.612980s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2018-05-26T20:36:43.149215646 1721.613124s notice: Shutting down client connections...
+2018-05-26T20:36:43.149304265 1721.613213s notice: All client connections closed.
+2018-05-26T20:36:43.149306648 1721.613215s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-05-26T20:36:43.188280699 1721.652189s notice: Storage engine shut down.
+2018-05-26T20:37:36.856291169 0.015952s notice: Running rethinkdb 2.3.6~0jessie (GCC 4.9.2)...
+2018-05-26T20:37:36.861705578 0.021367s notice: Running on Linux 4.9.87-linuxkit-aufs x86_64
+2018-05-26T20:37:36.862261672 0.021919s notice: Loading data from directory /data/rethinkdb_data
+2018-05-26T20:37:36.884706246 0.044366s info: Automatically using cache size of 328 MB
+2018-05-26T20:37:36.886066358 0.045724s notice: Listening for intracluster connections on port 29015
+2018-05-26T20:37:37.051932555 0.211591s notice: Listening for client driver connections on port 28015
+2018-05-26T20:37:37.052298208 0.211956s notice: Listening for administrative HTTP connections on port 8080
+2018-05-26T20:37:37.054198916 0.213857s notice: Listening on cluster addresses: 127.0.0.1, 172.22.0.2
+2018-05-26T20:37:37.056898249 0.216556s notice: Listening on driver addresses: 127.0.0.1, 172.22.0.2
+2018-05-26T20:37:37.058298857 0.217957s notice: Listening on http addresses: 127.0.0.1, 172.22.0.2
+2018-05-26T20:37:37.058479787 0.218137s notice: Server ready, "ctec_env" 5482d187-3117-4464-861f-8a0c969f7086
+2018-05-26T20:37:38.084484508 1.244142s info: Table fa5cd450-8b18-4ec9-8100-ab47492eb653: Starting a new Raft election for term 7.
+2018-05-26T20:37:38.085521530 1.245179s info: Table fa5cd450-8b18-4ec9-8100-ab47492eb653: This server is Raft leader for term 7. Latest log index is 17.
+2018-05-26T20:37:38.100957758 1.260616s info: Table 72ac25e6-1a4a-4ea3-bea0-506b33a8e4fd: Starting a new Raft election for term 33.
+2018-05-26T20:37:38.101997705 1.261655s info: Table 72ac25e6-1a4a-4ea3-bea0-506b33a8e4fd: This server is Raft leader for term 33. Latest log index is 95.
+2018-05-26T20:37:38.345169497 1.504828s info: Table 02ea2fb6-001f-48a4-aff8-3bbc62259f72: Starting a new Raft election for term 2.
+2018-05-26T20:37:38.346373671 1.506031s info: Table 02ea2fb6-001f-48a4-aff8-3bbc62259f72: This server is Raft leader for term 2. Latest log index is 3.
+2018-05-26T20:37:38.382148884 1.541807s info: Table 677b3d40-436f-44f0-b0d1-e95a77938269: Starting a new Raft election for term 7.
+2018-05-26T20:37:38.383248266 1.542906s info: Table 677b3d40-436f-44f0-b0d1-e95a77938269: This server is Raft leader for term 7. Latest log index is 17.
+2018-05-26T20:37:38.481209101 1.640867s info: Table cdcd4e19-c8f9-4696-9ffe-7ca290f8d594: Starting a new Raft election for term 33.
+2018-05-26T20:37:38.482209447 1.641867s info: Table cdcd4e19-c8f9-4696-9ffe-7ca290f8d594: This server is Raft leader for term 33. Latest log index is 95.
+2018-05-26T20:37:38.536351198 1.696009s info: Table 21e9b8c2-f24c-4735-a504-c9585add0577: Starting a new Raft election for term 7.
+2018-05-26T20:37:38.537433075 1.697091s info: Table 21e9b8c2-f24c-4735-a504-c9585add0577: This server is Raft leader for term 7. Latest log index is 18.
+2018-05-26T20:37:38.570387955 1.730046s info: Table 1d88492e-e7a5-4fa8-9d18-6b24d728db3e: Starting a new Raft election for term 33.
+2018-05-26T20:37:38.571273075 1.730931s info: Table 1d88492e-e7a5-4fa8-9d18-6b24d728db3e: This server is Raft leader for term 33. Latest log index is 95.
+2018-05-26T20:37:38.723387447 1.883046s info: Table b2686d97-8eb0-4910-98fd-fbffdba333bd: Starting a new Raft election for term 7.
+2018-05-26T20:37:38.724444872 1.884103s info: Table b2686d97-8eb0-4910-98fd-fbffdba333bd: This server is Raft leader for term 7. Latest log index is 17.
+2018-05-26T20:37:38.757111080 1.916769s info: Table 8d54dbf4-8945-4752-9cec-c30d9aaa83e7: Starting a new Raft election for term 33.
+2018-05-26T20:37:38.758365460 1.918023s info: Table 8d54dbf4-8945-4752-9cec-c30d9aaa83e7: This server is Raft leader for term 33. Latest log index is 95.
+2018-05-26T20:37:38.915747987 2.075406s info: Table 2affde32-d527-414b-9fa1-6dd0626fca74: Starting a new Raft election for term 31.
+2018-05-26T20:37:38.917858493 2.077516s info: Table 2affde32-d527-414b-9fa1-6dd0626fca74: This server is Raft leader for term 31. Latest log index is 90.
+2018-05-27T12:31:26.961741600 10813.864941s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2018-05-27T12:31:26.962111200 10813.865303s notice: Shutting down client connections...
+2018-05-27T12:31:26.962365600 10813.865558s notice: All client connections closed.
+2018-05-27T12:31:26.962374500 10813.865566s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-05-27T12:31:27.073918600 10813.977111s notice: Storage engine shut down.
+2018-05-27T12:36:17.647675800 0.014017s notice: Running rethinkdb 2.3.6~0jessie (GCC 4.9.2)...
+2018-05-27T12:36:17.650826000 0.017165s notice: Running on Linux 4.9.87-linuxkit-aufs x86_64
+2018-05-27T12:36:17.651186900 0.017524s notice: Loading data from directory /data/rethinkdb_data
+2018-05-27T12:36:17.684434900 0.050773s info: Automatically using cache size of 326 MB
+2018-05-27T12:36:17.686388600 0.052725s notice: Listening for intracluster connections on port 29015
+2018-05-27T12:36:17.985230700 0.351568s notice: Listening for client driver connections on port 28015
+2018-05-27T12:36:17.985778000 0.352115s notice: Listening for administrative HTTP connections on port 8080
+2018-05-27T12:36:18.090882400 0.457223s notice: Listening on cluster addresses: 127.0.0.1, 172.22.0.2
+2018-05-27T12:36:18.096735900 0.463075s notice: Listening on driver addresses: 127.0.0.1, 172.22.0.2
+2018-05-27T12:36:18.098405400 0.464744s notice: Listening on http addresses: 127.0.0.1, 172.22.0.2
+2018-05-27T12:36:18.098463500 0.464802s notice: Server ready, "ctec_env" 5482d187-3117-4464-861f-8a0c969f7086
+2018-05-27T12:36:18.818846200 1.185184s info: Table 02ea2fb6-001f-48a4-aff8-3bbc62259f72: Starting a new Raft election for term 3.
+2018-05-27T12:36:18.820047200 1.186385s info: Table 02ea2fb6-001f-48a4-aff8-3bbc62259f72: This server is Raft leader for term 3. Latest log index is 6.
+2018-05-27T12:36:18.885710900 1.252052s info: Table 72ac25e6-1a4a-4ea3-bea0-506b33a8e4fd: Starting a new Raft election for term 34.
+2018-05-27T12:36:18.887390600 1.253729s info: Table 72ac25e6-1a4a-4ea3-bea0-506b33a8e4fd: This server is Raft leader for term 34. Latest log index is 98.
+2018-05-27T12:36:18.920350100 1.286687s info: Table 21e9b8c2-f24c-4735-a504-c9585add0577: Starting a new Raft election for term 8.
+2018-05-27T12:36:18.922013600 1.288351s info: Table 21e9b8c2-f24c-4735-a504-c9585add0577: This server is Raft leader for term 8. Latest log index is 21.
+2018-05-27T12:36:18.933754900 1.300092s info: Table 677b3d40-436f-44f0-b0d1-e95a77938269: Starting a new Raft election for term 8.
+2018-05-27T12:36:18.934978300 1.301316s info: Table 677b3d40-436f-44f0-b0d1-e95a77938269: This server is Raft leader for term 8. Latest log index is 20.
+2018-05-27T12:36:19.045666800 1.412004s info: Table fa5cd450-8b18-4ec9-8100-ab47492eb653: Starting a new Raft election for term 8.
+2018-05-27T12:36:19.047408600 1.413747s info: Table fa5cd450-8b18-4ec9-8100-ab47492eb653: This server is Raft leader for term 8. Latest log index is 20.
+2018-05-27T12:36:19.051141800 1.417481s info: Table 2affde32-d527-414b-9fa1-6dd0626fca74: Starting a new Raft election for term 32.
+2018-05-27T12:36:19.055405300 1.421743s info: Table 2affde32-d527-414b-9fa1-6dd0626fca74: This server is Raft leader for term 32. Latest log index is 93.
+2018-05-27T12:36:19.436138100 1.802476s info: Table cdcd4e19-c8f9-4696-9ffe-7ca290f8d594: Starting a new Raft election for term 34.
+2018-05-27T12:36:19.437340100 1.803677s info: Table cdcd4e19-c8f9-4696-9ffe-7ca290f8d594: This server is Raft leader for term 34. Latest log index is 98.
+2018-05-27T12:36:19.458794000 1.825132s info: Table 8d54dbf4-8945-4752-9cec-c30d9aaa83e7: Starting a new Raft election for term 34.
+2018-05-27T12:36:19.459688800 1.826026s info: Table 8d54dbf4-8945-4752-9cec-c30d9aaa83e7: This server is Raft leader for term 34. Latest log index is 98.
+2018-05-27T12:36:19.694448100 2.060786s info: Table 1d88492e-e7a5-4fa8-9d18-6b24d728db3e: Starting a new Raft election for term 34.
+2018-05-27T12:36:19.695937400 2.062274s info: Table 1d88492e-e7a5-4fa8-9d18-6b24d728db3e: This server is Raft leader for term 34. Latest log index is 98.
+2018-05-27T12:36:19.920678300 2.287015s info: Table b2686d97-8eb0-4910-98fd-fbffdba333bd: Starting a new Raft election for term 8.
+2018-05-27T12:36:19.921739000 2.288076s info: Table b2686d97-8eb0-4910-98fd-fbffdba333bd: This server is Raft leader for term 8. Latest log index is 20.

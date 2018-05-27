@@ -16,7 +16,7 @@ const databaseController = new DatabaseController();
 const gameController = new GameController();
 const storeController = new StoreController();
 
-(function(app) {
+(function (app) {
   r.connect(config.rethinkdb, (err, conn) => {
     if (err) {
       console.log('Could not open a connection to initialize the database: ' + err.message);
@@ -36,11 +36,10 @@ const storeController = new StoreController();
 })(app);
 
 // set body parser for form data
-app.use(
-  bodyParser.urlencoded({
+app.use(bodyParser.urlencoded({
     extended: true
-  })
-);
+}));
+app.use(bodyParser.json());
 
 // Add headers
 app.use(function (req, res, next) {
@@ -57,7 +56,7 @@ app.use(function (req, res, next) {
 });
 
 // serve the files out of ./public as our main files
-app.use(express.static(__dirname + '/public'));
+// app.use(express.static(__dirname + '/public'));
 
 // set view engine and map views directory
 app.set('views', __dirname + '/views');
@@ -66,7 +65,9 @@ app.set('view engine', 'ejs');
 // map requests
 app.get('/', (req, res) => {
   gameController.getGames(req).then(games => {
-    res.render('index', { games: games });
+    res.render('index', {
+      games: games
+    });
   });
 });
 
@@ -75,40 +76,85 @@ app.use('/api', router);
 router.get('/', (req, res) => {
   res.render('router_info');
 });
-router.get('/pizzas', (req, res) => {
-  storeController.getPizzas(req).then(pizzas => {
-    res.json(pizzas);
-  });
-});
+
+
+// router.get('/pizzas', (req, res) => {
+//   storeController.getPizzas(req).then(pizzas => {
+//     res.json(pizzas);
+//   });
+// });
 router.get('/toppings', (req, res) => {
   storeController.getToppings(req).then(toppings => {
     res.json(toppings);
   });
 });
-
-
-
-
-
-
-
-
-router.route('/notes')
-.get((req, res) => {
-  jiraController.getJiraNotes(req).then(tickets => {
-    res.json(tickets);
-  });
-})
-.put((req, res) => {
-  jiraController.updateJIRA(req).then(tickets => {
-    res.json({'Updated: ': notes});
-  });
-})
-.post((req, res) => {
-  jiraController.createJIRA(req).then(tickets => {
-    res.json({'Updated: ': notes});
+router.get('/empty_pizzas', (req, res) => {
+  storeController.getEmptyPizzas(req).then(pizzas => {
+    res.json(pizzas);
   });
 });
+
+
+
+
+
+
+
+
+router.route('/pizzas')
+  .get((req, res) => {
+    storeController.getPizzas(req).then(pizzas => {
+      res.json(pizzas);
+    });
+  })
+  .post((req, res) => {
+    storeController.createPizza(req)
+    // .then(tickets => {
+    //   res.json({
+    //     'Updated: ': tickets
+    //   });
+    // });
+  })
+
+
+
+
+  .put((req, res) => {
+    console.log(req)
+    storeController.updatePizza(req)
+    // .then(tickets => {
+    //   res.json({
+    //     'Updated: ': tickets
+    //   });
+    // });
+  })
+  .delete((req, res) => {
+    storeController.removePizza(req).then(tickets => {
+      res.json({
+        'Updated: ': tickets
+      });
+    });
+  });
+// router.route('/notes')
+//   .get((req, res) => {
+//     jiraController.getJiraNotes(req).then(tickets => {
+//       res.json(tickets);
+//     });
+//   })
+//   .put((req, res) => {
+//     jiraController.updateJIRA(req).then(tickets => {
+//       res.json({
+//         'Updated: ': notes
+//       });
+//     });
+//   })
+//   .post((req, res) => {
+//     jiraController.createJIRA(req).then(tickets => {
+//       res.json({
+//         'Updated: ': notes
+//       });
+//     });
+//   });
 
 
 
@@ -121,7 +167,9 @@ router.route('/notes')
 
 app.get('/update', (req, res) => {
   gameController.getGameById(req).then(game => {
-    res.render('update', { game: game });
+    res.render('update', {
+      game: game
+    });
   });
 });
 
