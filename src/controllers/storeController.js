@@ -17,33 +17,26 @@ class StoreController {
 			name: req.body.name,
 			toppings: req.body.toppings
 		}
-		console.log(pizza)
 		return r.table('pizzas').insert(pizza).run(conn);
 	}
-	
-	
-	
-	
-	
-	
-	
 	updatePizza(req) {
 		var conn = req.app.get('rethinkdb.conn');
-		console.log(req.body)
-		// var id = req.body.game.id;
-		
-		// var game = {
-		// 	player1: req.body.game.player1,
-		// 	player2: req.body.game.player2,
-		// 	status: req.body.game.status
-		// }
-		// console.log(game);
-		// return r.table('games').get(id).update(game).run(conn);
+		var id = req.body.id;
+		var pizza = {
+			id: req.body.id,
+			name: req.body.name,
+			toppings: req.body.toppings
+		}
+		return r.table('pizzas').get(id).update(pizza).run(conn);
 	}
+
+
+
+
 	removePizza(req) {
 		var conn = req.app.get('rethinkdb.conn');
-		var id = req.body.game.id;
-		return r.table('games').get(id).delete().run(conn);
+		var id = Number(req.params.id)
+		return r.table('pizzas').get(id).delete().run(conn);
 	}
 
 

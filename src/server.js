@@ -37,7 +37,7 @@ const storeController = new StoreController();
 
 // set body parser for form data
 app.use(bodyParser.urlencoded({
-    extended: true
+  extended: true
 }));
 app.use(bodyParser.json());
 
@@ -56,7 +56,7 @@ app.use(function (req, res, next) {
 });
 
 // serve the files out of ./public as our main files
-// app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
 
 // set view engine and map views directory
 app.set('views', __dirname + '/views');
@@ -94,13 +94,6 @@ router.get('/empty_pizzas', (req, res) => {
   });
 });
 
-
-
-
-
-
-
-
 router.route('/pizzas')
   .get((req, res) => {
     storeController.getPizzas(req).then(pizzas => {
@@ -108,54 +101,18 @@ router.route('/pizzas')
     });
   })
   .post((req, res) => {
-    storeController.createPizza(req)
-    // .then(tickets => {
-    //   res.json({
-    //     'Updated: ': tickets
-    //   });
-    // });
+    storeController.createPizza(req).then(pizzas => {
+      res.json(pizzas);
+    });
   })
-
-
-
-
   .put((req, res) => {
-    console.log(req)
-    storeController.updatePizza(req)
-    // .then(tickets => {
-    //   res.json({
-    //     'Updated: ': tickets
-    //   });
-    // });
-  })
-  .delete((req, res) => {
-    storeController.removePizza(req).then(tickets => {
-      res.json({
-        'Updated: ': tickets
-      });
+    storeController.updatePizza(req).then(pizzas => {
+      res.json(pizzas);
     });
   });
-// router.route('/notes')
-//   .get((req, res) => {
-//     jiraController.getJiraNotes(req).then(tickets => {
-//       res.json(tickets);
-//     });
-//   })
-//   .put((req, res) => {
-//     jiraController.updateJIRA(req).then(tickets => {
-//       res.json({
-//         'Updated: ': notes
-//       });
-//     });
-//   })
-//   .post((req, res) => {
-//     jiraController.createJIRA(req).then(tickets => {
-//       res.json({
-//         'Updated: ': notes
-//       });
-//     });
-//   });
-
+router.delete('/pizzas/:id', (req, res) => {
+  storeController.removePizza(req)
+});
 
 
 
