@@ -30,12 +30,9 @@ class StoreController {
 		return r.table('pizzas').get(id).update(pizza).run(conn);
 	}
 
-
-
-
 	removePizza(req) {
 		var conn = req.app.get('rethinkdb.conn');
-		var id = Number(req.params.id)
+		var id = Number(req.params.id) // Number due to this frontend code ONLY, remove!!
 		return r.table('pizzas').get(id).delete().run(conn);
 	}
 
